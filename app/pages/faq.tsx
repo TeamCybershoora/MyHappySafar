@@ -85,8 +85,8 @@ const FAQ = () => {
                     </div>
                     <div>
                       <p className="text-sm text-gray-500 mb-1">Phone Number</p>
-                      <a href="tel:+917246933288" className="text-gray-800 hover:text-slate-900 transition-colors">
-                        +91-7246933288
+                      <a href="tel:+9192511 47383" className="text-gray-800 hover:text-slate-900 transition-colors">
+                        +91-92511 47383
                       </a>
                     </div>
                   </div>

@@ -255,7 +255,7 @@ const AboutSection = () => {
 
               <div className="flex flex-wrap gap-4 mt-6">
                 <a 
-                  href="tel:+917246933288" 
+                  href="tel:+9192511 47383" 
                   className="flex items-center px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors"
                 >
                   <FaPhoneAlt className="mr-2" />

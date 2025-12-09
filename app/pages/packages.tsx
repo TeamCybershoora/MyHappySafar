@@ -220,7 +220,7 @@ const Packages = () => {
                         Enquire Now
                       </button>
                       <a 
-                        href="https://wa.me/917246933288?text=Hello%2C%20I%20am%20interested%20in%20tour%20packages%20from%20RajasthanTourWala.com%20and%20would%20like%20to%20know%20more%20about%20your%20services."
+                        href="https://wa.me/9192511 47383?text=Hello%2C%20I%20am%20interested%20in%20tour%20packages%20from%20RajasthanTourWala.com%20and%20would%20like%20to%20know%20more%20about%20your%20services."
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-green-500 hover:bg-green-600 text-white p-2 rounded flex items-center justify-center transition-colors hover:scale-110"

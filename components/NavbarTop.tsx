@@ -9,7 +9,7 @@ const NavbarTop = () => {
           <div className="flex flex-wrap items-center justify-between text-white">
             <p className="flex items-center text-sm">
               <Phone className="w-4 h-4 mr-2 text-white" />
-              Call : +91-7246933288
+              Call : +91-92511 47383
             </p>
             <p className="flex items-center text-sm">
               <MapPin className="w-4 h-4 mr-1 text-white" />

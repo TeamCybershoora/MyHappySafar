@@ -159,7 +159,7 @@ const TaxiService = () => {
                   
                   <div className="grid grid-cols-3 gap-2">
                     <a
-                      href="https://api.whatsapp.com/send?phone=917246933288"
+                      href="https://api.whatsapp.com/send?phone=9192511 47383"
                       className="bg-green-500 hover:bg-green-600 text-white text-xs sm:text-sm py-2 px-1 sm:px-2 rounded-full flex items-center justify-center transition-colors whitespace-nowrap"
                     >
                       
@@ -178,7 +178,7 @@ const TaxiService = () => {
                       <span >Enquiry</span>
                     </button>
                     <a 
-                      href="tel:+917246933288"
+                      href="tel:+9192511 47383"
                       className="bg-red-500 hover:bg-red-600 text-white text-xs sm:text-sm py-2 px-1 sm:px-2 rounded-full flex items-center justify-center transition-colors whitespace-nowrap"
                     >
                       <span >Call Now</span>
