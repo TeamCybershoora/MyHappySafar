@@ -115,8 +115,8 @@ const Footer = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Customer Support</p>
-                    <a href="tel:+9192511 47383" className="text-white hover:text-slate-900 transition-colors">
-                      +91-92511 47383
+                    <a href="tel:+919251147383" className="text-white hover:text-slate-900 transition-colors">
+                      +91-9251147383
                     </a>
                   </div>
                 </div>
@@ -146,7 +146,7 @@ const Footer = () => {
 
         {/* Floating Buttons */}
         <a 
-          href="https://wa.me/9192511 47383?text=Hello%2C%20I%20am%20interested%20in%20tour%20packages%20from%20RajasthanTourWala.com%20and%20would%20like%20to%20know%20more%20about%20your%20services." 
+          href="https://wa.me/919251147383?text=Hello%2C%20I%20am%20interested%20in%20tour%20packages%20from%20RajasthanTourWala.com%20and%20would%20like%20to%20know%20more%20about%20your%20services." 
           target="_blank" 
           rel="noopener noreferrer"
           className="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-lg hover:bg-green-600 transition-colors z-50"
@@ -154,7 +154,7 @@ const Footer = () => {
           <FaWhatsapp />
         </a>
         <a 
-          href="tel:+9192511 47383"
+          href="tel:+919251147383"
           className="fixed bottom-24 right-6 bg-slate-900 text-white w-14 h-14 rounded-full flex items-center justify-center text-xl shadow-lg hover:bg-slate-800 transition-colors z-50"
         >
           <FaPhone />
