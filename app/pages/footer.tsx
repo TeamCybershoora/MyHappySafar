@@ -146,7 +146,7 @@ const Footer = () => {
 
         {/* Floating Buttons */}
         <a 
-          href="https://wa.me/919799905998?text=Hello%2C%20I%20am%20interested%20in%20tour%20packages%20from%20RajasthanTourWala.com%20and%20would%20like%20to%20know%20more%20about%20your%20services." 
+          href="https://wa.me/917246933288?text=Hello%2C%20I%20am%20interested%20in%20tour%20packages%20from%20RajasthanTourWala.com%20and%20would%20like%20to%20know%20more%20about%20your%20services." 
           target="_blank" 
           rel="noopener noreferrer"
           className="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-lg hover:bg-green-600 transition-colors z-50"

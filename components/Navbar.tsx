@@ -115,7 +115,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className={`fixed w-full z-50 transition-all duration-300 bg-[#813205] ${
+      <header className={`fixed w-full z-50 transition-all duration-300 bg-slate-900 ${
         isScrolled ? 'top-0' : 'top-8'
       }`}>
         <div className="container mx-auto px-4">
@@ -130,11 +130,11 @@ const Navbar = () => {
               }}
             >
               <Image 
-                src="/img/TheHappySafar.png" 
+                src="/img/TheHappySafarLogo.png" 
                 alt="Rajasthan Tourwala" 
                 width={160} 
                 height={40}
-                className="h-10 w-auto invert"
+                className="h-10 w-auto "
                 priority
               />
             </Link>
@@ -163,7 +163,7 @@ const Navbar = () => {
             <div className="hidden md:block">
               <button
                 onClick={() => setShowEnquiryModal(true)}
-                className="bg-white text-[#813205] px-6 py-2 rounded-full font-medium transition-colors hover:bg-opacity-90"
+                className="bg-white text-blue-600 px-6 py-2 rounded-full font-medium transition-colors hover:bg-opacity-90"
               >
                 Enquire Now
               </button>
@@ -203,7 +203,7 @@ const Navbar = () => {
           <div>
             <input
               type="text"
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#813205] focus:border-transparent text-sm"
+              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent text-sm"
               placeholder="Name"
               name="name"
               value={formData.name}
@@ -215,7 +215,7 @@ const Navbar = () => {
           <div>
             <input
               type="email"
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#813205] focus:border-transparent text-sm"
+              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent text-sm"
               placeholder="Email"
               name="email"
               value={formData.email}
@@ -227,7 +227,7 @@ const Navbar = () => {
           <div>
             <input
               type="tel"
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#813205] focus:border-transparent text-sm"
+              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent text-sm"
               placeholder="Phone Number"
               name="phone"
               value={formData.phone}
@@ -243,7 +243,7 @@ const Navbar = () => {
             </label>
             <input
               type="date"
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#813205] focus:border-transparent text-sm"
+              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent text-sm"
               name="travelDate"
               value={formData.travelDate}
               onChange={handleChange}
@@ -253,7 +253,7 @@ const Navbar = () => {
 
           <button
             type="submit"
-            className="w-full bg-[#813205] text-white py-3 px-6 rounded-lg font-medium hover:bg-[#6a2a04] transition-colors duration-300 text-sm"
+            className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-300 text-sm"
           >
             Enquire Now
           </button>
@@ -291,7 +291,7 @@ const Navbar = () => {
                 onClick={(e) => scrollToSection(e, link.id)}
                 className={`text-lg py-3 px-4 rounded ${
                   activeSection === link.id 
-                    ? 'bg-[#813205] text-white' 
+                    ? 'bg-blue-600 text-white' 
                     : 'text-gray-700 hover:bg-gray-100'
                 }`}
               >
@@ -306,7 +306,7 @@ const Navbar = () => {
                 setShowEnquiryModal(true);
                 setIsMenuOpen(false);
               }}
-              className="w-full bg-[#813205] text-white py-3 px-6 rounded-lg font-medium hover:bg-[#6a2a04] transition-colors duration-300 text-sm mb-3"
+              className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-300 text-sm mb-3"
             >
               Enquire Now
             </button>
