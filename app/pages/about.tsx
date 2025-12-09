@@ -330,7 +330,7 @@ const AboutSection = () => {
                 <div>
                   <input
                     type="text"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#813205] focus:border-transparent text-sm"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-slate-900 focus:border-transparent text-sm"
                     placeholder="Name"
                     name="name"
                     value={formData.name}
@@ -342,7 +342,7 @@ const AboutSection = () => {
                 <div>
                   <input
                     type="email"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#813205] focus:border-transparent text-sm"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-slate-900 focus:border-transparent text-sm"
                     placeholder="Email"
                     name="email"
                     value={formData.email}
@@ -354,7 +354,7 @@ const AboutSection = () => {
                 <div>
                   <input
                     type="tel"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#813205] focus:border-transparent text-sm"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-slate-900 focus:border-transparent text-sm"
                     placeholder="Phone Number"
                     name="phone"
                     value={formData.phone}
@@ -370,7 +370,7 @@ const AboutSection = () => {
                   </label>
                   <input
                     type="date"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#813205] focus:border-transparent text-sm"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-slate-900 focus:border-transparent text-sm"
                     name="travelDate"
                     value={formData.travelDate}
                     onChange={(e) => setFormData(prev => ({ ...prev, travelDate: e.target.value }))}
@@ -380,7 +380,7 @@ const AboutSection = () => {
 
                 <button
                   type="submit"
-                  className="w-full bg-[#813205] text-white py-3 px-6 rounded-lg font-medium hover:bg-[#6a2a04] transition-colors duration-300 text-sm"
+                  className="w-full bg-slate-900 text-white py-3 px-6 rounded-lg font-medium hover:bg-slate-800 transition-colors duration-300 text-sm"
                 >
                   Enquire Now
                 </button>

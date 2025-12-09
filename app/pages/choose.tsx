@@ -33,7 +33,7 @@ const Choose = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">
-            Why Choose <span className="text-[#813205]">Us?</span>
+            Why Choose <span className="text-slate-900">Us?</span>
           </h2>
         </div>
         
@@ -53,11 +53,11 @@ const Choose = () => {
                 ></div>
               
               <div className="relative z-10">
-                <div className="w-16 h-16 bg-[#813205] rounded-full flex items-center justify-center mb-4 mx-auto group-hover:scale-110 transition-transform duration-300">
+                <div className="w-16 h-16 bg-slate-900 rounded-full flex items-center justify-center mb-4 mx-auto group-hover:scale-110 transition-transform duration-300">
                   {feature.icon}
                 </div>
                 <div className="text-center">
-                  <h6 className="text-lg font-semibold mb-2 group-hover:text-[#813205] transition-colors duration-300">
+                  <h6 className="text-lg font-semibold mb-2 group-hover:text-slate-900 transition-colors duration-300">
                     {feature.title}
                   </h6>
                   <p className="text-gray-600 text-sm">{feature.description}</p>

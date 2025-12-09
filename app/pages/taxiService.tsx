@@ -81,12 +81,12 @@ const TaxiService = () => {
           <div className="section-header flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-12">
             <div>
               <p className="mb-2 font-medium flex items-center">
-                <span className="w-8 h-0.5 bg-[#813205] mr-2"></span>
+                <span className="w-8 h-0.5 bg-slate-900 mr-2"></span>
                 Book Taxi
               </p>
               <h2 className="text-3xl font-bold">
                 Book Taxi for Rajasthan Tour 2025
-                <span className="text-[#813205]">.</span>
+                <span className="text-slate-900">.</span>
               </h2>
             </div>
           </div>
@@ -166,7 +166,7 @@ const TaxiService = () => {
                       <span >WhatsApp</span>
                     </a>
                     <button 
-                      className="bg-[#813205] hover:bg-[#6a2a04] text-white text-xs sm:text-sm py-2 px-1 sm:px-2 rounded-full flex items-center justify-center transition-colors whitespace-nowrap"
+                      className="bg-slate-900 hover:bg-slate-800 text-white text-xs sm:text-sm py-2 px-1 sm:px-2 rounded-full flex items-center justify-center transition-colors whitespace-nowrap"
                       onClick={() => {
                         setFormData(prev => ({
                           ...prev,
@@ -246,7 +246,7 @@ const TaxiService = () => {
                 <div>
                   <input
                     type="text"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#813205] focus:border-transparent text-sm"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-slate-900 focus:border-transparent text-sm"
                     placeholder="Name"
                     name="name"
                     value={formData.name}
@@ -258,7 +258,7 @@ const TaxiService = () => {
                 <div>
                   <input
                     type="email"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#813205] focus:border-transparent text-sm"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-slate-900 focus:border-transparent text-sm"
                     placeholder="Email"
                     name="email"
                     value={formData.email}
@@ -270,7 +270,7 @@ const TaxiService = () => {
                 <div>
                   <input
                     type="tel"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#813205] focus:border-transparent text-sm"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-slate-900 focus:border-transparent text-sm"
                     placeholder="Phone Number"
                     name="phone"
                     value={formData.phone}
@@ -286,7 +286,7 @@ const TaxiService = () => {
                   </label>
                   <input
                     type="date"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#813205] focus:border-transparent text-sm"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-slate-900 focus:border-transparent text-sm"
                     name="travelDate"
                     value={formData.travelDate}
                     onChange={(e) => setFormData(prev => ({ ...prev, travelDate: e.target.value }))}
@@ -296,7 +296,7 @@ const TaxiService = () => {
 
                 <button
                   type="submit"
-                  className="w-full bg-[#813205] text-white py-3 px-6 rounded-lg font-medium hover:bg-[#6a2a04] transition-colors duration-300 text-sm"
+                  className="w-full bg-slate-900 text-white py-3 px-6 rounded-lg font-medium hover:bg-slate-800 transition-colors duration-300 text-sm"
                 >
                   Enquire Now
                 </button>

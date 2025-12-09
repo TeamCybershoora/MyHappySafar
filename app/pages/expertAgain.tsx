@@ -45,7 +45,7 @@ const ExpertAgain = () => {
           <div className="w-full lg:w-1/2">
             <div className="max-w-lg">
               <h2 className="text-3xl font-bold mb-8">
-                Trusted Solution for Your <span className="text-[#813205]">Rajasthan Tour</span> Package
+                Trusted Solution for Your <span className="text-slate-900">Rajasthan Tour</span> Package
               </h2>
               
               {/* Feature Cards */}
@@ -105,7 +105,7 @@ const ExpertAgain = () => {
           <div className="w-full lg:w-1/2">
             <div className="max-w-lg">
               <div className="mb-8">
-                <span className="bg-[#f1e8ff] text-[#813205] text-sm font-medium px-4 py-1 rounded-full">
+                <span className="bg-[#f1e8ff] text-slate-900 text-sm font-medium px-4 py-1 rounded-full">
                   Most Popular FAQ's
                 </span>
                 <h2 className="text-3xl font-bold mt-2">FAQs for Rajasthan Tour Packages</h2>

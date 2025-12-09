@@ -50,7 +50,7 @@ const Footer = () => {
                 <li>
                   <button 
                     onClick={() => scrollToSection('home')}
-                    className="text-gray-400 hover:text-[#813205] transition-colors"
+                    className="text-gray-400 hover:text-slate-900 transition-colors"
                   >
                     Home
                   </button>
@@ -58,7 +58,7 @@ const Footer = () => {
                 <li>
                   <button 
                     onClick={() => scrollToSection('about_us')}
-                    className="text-gray-400 hover:text-[#813205] transition-colors"
+                    className="text-gray-400 hover:text-slate-900 transition-colors"
                   >
                     About Us
                   </button>
@@ -66,7 +66,7 @@ const Footer = () => {
                 <li>
                   <button 
                     onClick={() => scrollToSection('tour_list')}
-                    className="text-gray-400 hover:text-[#813205] transition-colors"
+                    className="text-gray-400 hover:text-slate-900 transition-colors"
                   >
                     Tour List
                   </button>
@@ -74,7 +74,7 @@ const Footer = () => {
                 <li>
                   <button 
                     onClick={() => scrollToSection('taxi_service')}
-                    className="text-gray-400 hover:text-[#813205] transition-colors"
+                    className="text-gray-400 hover:text-slate-900 transition-colors"
                   >
                     Taxi Service
                   </button>
@@ -96,7 +96,7 @@ const Footer = () => {
                   <li key={index}>
                     <button 
                       onClick={() => setShowModal(true)}
-                      className="text-gray-400 hover:text-[#813205] transition-colors text-left"
+                      className="text-gray-400 hover:text-slate-900 transition-colors text-left"
                     >
                       {destination}
                     </button>
@@ -111,24 +111,24 @@ const Footer = () => {
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <div className="mt-1">
-                    <FaHeadset className="text-[#813205] text-xl" />
+                    <FaHeadset className="text-slate-900 text-xl" />
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Customer Support</p>
-                    <a href="tel:+917246933288" className="text-white hover:text-[#813205] transition-colors">
+                    <a href="tel:+917246933288" className="text-white hover:text-slate-900 transition-colors">
                       +91-7246933288
                     </a>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="mt-1">
-                    <FaEnvelope className="text-[#813205] text-xl" />
+                    <FaEnvelope className="text-slate-900 text-xl" />
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Drop Us an Email</p>
                     <a 
                       href="mailto:thehappysafar@gmail.com" 
-                      className="text-white hover:text-[#813205] transition-colors"
+                      className="text-white hover:text-slate-900 transition-colors"
                     >
                       thehappysafar@gmail.com
                     </a>
@@ -155,7 +155,7 @@ const Footer = () => {
         </a>
         <a 
           href="tel:+917246933288"
-          className="fixed bottom-24 right-6 bg-[#813205] text-white w-14 h-14 rounded-full flex items-center justify-center text-xl shadow-lg hover:bg-[#6a2a04] transition-colors z-50"
+          className="fixed bottom-24 right-6 bg-slate-900 text-white w-14 h-14 rounded-full flex items-center justify-center text-xl shadow-lg hover:bg-slate-800 transition-colors z-50"
         >
           <FaPhone />
         </a>
@@ -181,7 +181,7 @@ const Footer = () => {
                     type="text"
                     name="name"
                     placeholder="Your Name"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#813205] focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-slate-900 focus:border-transparent"
                     required
                   />
                 </div>
@@ -190,7 +190,7 @@ const Footer = () => {
                     type="email"
                     name="email"
                     placeholder="Email Address"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#813205] focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-slate-900 focus:border-transparent"
                     required
                   />
                 </div>
@@ -199,7 +199,7 @@ const Footer = () => {
                     type="tel"
                     name="phone"
                     placeholder="Phone Number"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#813205] focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-slate-900 focus:border-transparent"
                     required
                   />
                 </div>
@@ -208,13 +208,13 @@ const Footer = () => {
                     name="message"
                     rows={3}
                     placeholder="Write a Message"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#813205] focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-slate-900 focus:border-transparent"
                     required
                   ></textarea>
                 </div>
                 <button
                   type="submit"
-                  className="w-full bg-[#813205] hover:bg-[#6a2a04] text-white py-2 px-4 rounded-lg font-medium transition-colors"
+                  className="w-full bg-slate-900 hover:bg-slate-800 text-white py-2 px-4 rounded-lg font-medium transition-colors"
                 >
                   Send Message
                 </button>

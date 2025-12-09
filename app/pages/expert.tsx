@@ -58,7 +58,7 @@ const Expert = () => {
                           <i className={`${service.icon} text-2xl ${service.color} group-hover:text-white transition-colors`}></i>
                         </div>
                         <div className="ml-4">
-                          <h6 className="font-semibold text-lg mb-1 group-hover:text-[#813205] transition-colors">
+                          <h6 className="font-semibold text-lg mb-1 group-hover:text-slate-900 transition-colors">
                             {service.title}
                           </h6>
                           <p className="text-gray-500 text-sm">
@@ -67,12 +67,12 @@ const Expert = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="absolute -right-8 -bottom-8 w-40 h-40 rounded-full bg-[#813205] bg-opacity-5 group-hover:bg-opacity-10 transition-all duration-500 transform group-hover:scale-150"></div>
+                    <div className="absolute -right-8 -bottom-8 w-40 h-40 rounded-full bg-slate-900 bg-opacity-5 group-hover:bg-opacity-10 transition-all duration-500 transform group-hover:scale-150"></div>
                   </div>
                 ))}
               </div>
               
-              <button className="relative overflow-hidden group bg-[#813205] hover:bg-[#6a2a04] text-white px-8 py-3 rounded-full flex items-center transition-all duration-300">
+              <button className="relative overflow-hidden group bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 rounded-full flex items-center transition-all duration-300">
                 <span className="relative z-10 flex items-center">
                   <i className="ri-calendar-line mr-2"></i>
                   Book Now

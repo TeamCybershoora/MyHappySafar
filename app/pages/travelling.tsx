@@ -28,7 +28,7 @@ export default function Travelling() {
 
   return (
     <section 
-      className="bg-[#813205] text-white py-3 px-4 overflow-hidden cursor-pointer"
+      className="bg-slate-900 text-white py-3 px-4 overflow-hidden cursor-pointer"
       data-bs-toggle="modal" 
       data-bs-target="#popupModal"
       onMouseEnter={() => setIsPaused(true)}

@@ -25,7 +25,7 @@ const Work = () => {
   ];
 
   return (
-    <section className="py-16 bg-[#813205]">
+    <section className="py-16 bg-slate-900">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:w-1/3 mb-10 lg:mb-0">
@@ -52,7 +52,7 @@ const Work = () => {
                         {step.number}
                         <small className="text-[#ffd700]">.</small>
                       </span>
-                      <span className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center text-white text-xl group-hover:bg-[#ffd700] group-hover:text-[#813205] transition-all duration-300">
+                      <span className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center text-white text-xl group-hover:bg-[#ffd700] group-hover:text-slate-900 transition-all duration-300">
                         <i className={step.icon}></i>
                       </span>
                     </div>

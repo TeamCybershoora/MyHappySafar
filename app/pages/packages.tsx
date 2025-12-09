@@ -171,10 +171,10 @@ const Packages = () => {
           <div className="section-header d-flex align-items-center justify-content-between flex-wrap row-gap-3 mb-12">
             <div>
               <p className="mb-2 fw-medium d-flex items-center">
-                <span className="w-8 h-0.5 bg-[#813205] mr-2"></span>
+                <span className="w-8 h-0.5 bg-slate-900 mr-2"></span>
                 Trending Tours
               </p>
-              <h2 className="text-3xl font-bold">Our Tour Packages<span className="text-[#813205]">.</span></h2>
+              <h2 className="text-3xl font-bold">Our Tour Packages<span className="text-slate-900">.</span></h2>
             </div>
           </div>
           
@@ -189,7 +189,7 @@ const Packages = () => {
                       fill
                       className="object-cover"
                     />
-                    <span className="absolute top-2 right-2 bg-[#813205] text-white text-sm px-2 py-1 rounded">
+                    <span className="absolute top-2 right-2 bg-slate-900 text-white text-sm px-2 py-1 rounded">
                       {pkg.duration}
                     </span>
                   </div>
@@ -197,17 +197,17 @@ const Packages = () => {
                   <div className="p-4">
                     <h3 className="font-bold text-lg mb-2">{pkg.title}</h3>
                     <p className="text-gray-600 text-sm mb-4 flex items-start">
-                      <FaMapMarkerAlt className="mt-1 mr-2 text-[#813205] flex-shrink-0" />
+                      <FaMapMarkerAlt className="mt-1 mr-2 text-slate-900 flex-shrink-0" />
                       <span>{pkg.places}</span>
                     </p>
                     
                     <div className="flex justify-between items-center mb-4">
-                      <span className="text-[#813205] font-medium">Price on request</span>
+                      <span className="text-slate-900 font-medium">Price on request</span>
                     </div>
                     
                     <div className="flex space-x-2">
                       <button 
-                        className="flex-1 bg-[#813205] hover:bg-[#6a2a04] text-white py-2 px-3 rounded text-sm flex items-center justify-center transition-colors"
+                        className="flex-1 bg-slate-900 hover:bg-slate-800 text-white py-2 px-3 rounded text-sm flex items-center justify-center transition-colors"
                         onClick={() => {
                           setFormData(prev => ({
                             ...prev,
@@ -291,7 +291,7 @@ const Packages = () => {
                 <div>
                   <input
                     type="text"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#813205] focus:border-transparent text-sm"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-slate-900 focus:border-transparent text-sm"
                     placeholder="Name"
                     name="name"
                     value={formData.name}
@@ -303,7 +303,7 @@ const Packages = () => {
                 <div>
                   <input
                     type="email"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#813205] focus:border-transparent text-sm"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-slate-900 focus:border-transparent text-sm"
                     placeholder="Email"
                     name="email"
                     value={formData.email}
@@ -315,7 +315,7 @@ const Packages = () => {
                 <div>
                   <input
                     type="tel"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#813205] focus:border-transparent text-sm"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-slate-900 focus:border-transparent text-sm"
                     placeholder="Phone Number"
                     name="phone"
                     value={formData.phone}
@@ -331,7 +331,7 @@ const Packages = () => {
                   </label>
                   <input
                     type="date"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#813205] focus:border-transparent text-sm"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-slate-900 focus:border-transparent text-sm"
                     name="travelDate"
                     value={formData.travelDate}
                     onChange={(e) => setFormData(prev => ({ ...prev, travelDate: e.target.value }))}
@@ -341,7 +341,7 @@ const Packages = () => {
 
                 <button
                   type="submit"
-                  className="w-full bg-[#813205] text-white py-3 px-6 rounded-lg font-medium hover:bg-[#6a2a04] transition-colors duration-300 text-sm"
+                  className="w-full bg-slate-900 text-white py-3 px-6 rounded-lg font-medium hover:bg-slate-800 transition-colors duration-300 text-sm"
                 >
                   Enquire Now
                 </button>

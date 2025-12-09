@@ -67,11 +67,11 @@ const FAQ = () => {
                 <div className="pb-6 border-b border-gray-200">
                   <div className="flex items-start">
                     <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center mr-4 flex-shrink-0">
-                      <FaEnvelope className="text-[#813205] text-xl" />
+                      <FaEnvelope className="text-slate-900 text-xl" />
                     </div>
                     <div>
                       <p className="text-sm text-gray-500 mb-1">Email Address</p>
-                      <a href="mailto:thehappysafar@gmail.com" className="text-gray-800 hover:text-[#813205] transition-colors">
+                      <a href="mailto:thehappysafar@gmail.com" className="text-gray-800 hover:text-slate-900 transition-colors">
                         thehappysafar@gmail.com
                       </a>
                     </div>
@@ -81,11 +81,11 @@ const FAQ = () => {
                 <div className="pb-6 border-b border-gray-200">
                   <div className="flex items-start">
                     <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center mr-4 flex-shrink-0">
-                      <FaPhoneAlt className="text-[#813205] text-xl" />
+                      <FaPhoneAlt className="text-slate-900 text-xl" />
                     </div>
                     <div>
                       <p className="text-sm text-gray-500 mb-1">Phone Number</p>
-                      <a href="tel:+917246933288" className="text-gray-800 hover:text-[#813205] transition-colors">
+                      <a href="tel:+917246933288" className="text-gray-800 hover:text-slate-900 transition-colors">
                         +91-7246933288
                       </a>
                     </div>
@@ -95,7 +95,7 @@ const FAQ = () => {
                 <div className="pb-2">
                   <div className="flex items-start">
                     <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center mr-4 flex-shrink-0">
-                      <FaMapMarkerAlt className="text-[#813205] text-xl" />
+                      <FaMapMarkerAlt className="text-slate-900 text-xl" />
                     </div>
                     <div>
                       <p className="text-sm text-gray-500 mb-1">Our Location</p>
@@ -128,7 +128,7 @@ const FAQ = () => {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#813205] focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-slate-900 focus:border-transparent"
                     required
                   />
                 </div>
@@ -143,7 +143,7 @@ const FAQ = () => {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#813205] focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-slate-900 focus:border-transparent"
                     required
                   />
                 </div>
@@ -158,7 +158,7 @@ const FAQ = () => {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#813205] focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-slate-900 focus:border-transparent"
                     required
                   />
                   <input type="hidden" name="message" value="NA" />
@@ -174,14 +174,14 @@ const FAQ = () => {
                     rows={4}
                     value={formData.message}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#813205] focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-slate-900 focus:border-transparent"
                     required
                   ></textarea>
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-[#813205] hover:bg-[#6a2a04] text-white py-3 px-6 rounded-lg font-medium flex items-center justify-center transition-colors"
+                  className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3 px-6 rounded-lg font-medium flex items-center justify-center transition-colors"
                 >
                   <FaPaperPlane className="mr-2" />
                   Send Message
